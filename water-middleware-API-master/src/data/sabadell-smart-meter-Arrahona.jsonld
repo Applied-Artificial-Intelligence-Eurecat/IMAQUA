@@ -1,0 +1,22 @@
+{
+  "id": "sabadell-Arrahona",
+  "@type": ["saref4watr:WaterSmartMeter", "geo:Feature"],
+  "title": "Smart Meter for Arrahona",
+  "description": "A smart-meter model for capturing the chlorine information about Arrahona",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+    "chlorine": {
+      "description" : "Water Chlorine",
+      "type": "number",
+      "unit": "ppm",
+      "readOnly": true
+    }
+  },
+  "links": [
+    {
+      "href":"src/csv/Arrahona Clor 2019-09-16.csv"
+    }]
+}

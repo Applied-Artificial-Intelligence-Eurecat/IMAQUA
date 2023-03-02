@@ -1,0 +1,23 @@
+{
+  "id": "PREPLANETES",
+  "@type": ["saref4watr:WaterSmartMeter", "geo:Feature"],
+  "title": "Pressure Sensor in Planetes",
+  "description": "Pressure Sensor in Planetes region of Sabadell",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+    "waterpressure": {
+      "description" : "Pressure Mesurement",
+      "type": "number",
+      "unit": "bars",
+      "readOnly": true,
+      "uriVariables": "Pressió Planetes"
+    }
+  },
+  "links": [
+    {
+      "href":"2.139.195.203"
+    }]
+}

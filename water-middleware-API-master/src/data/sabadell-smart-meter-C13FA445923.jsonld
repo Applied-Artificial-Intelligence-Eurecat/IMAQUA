@@ -1,0 +1,22 @@
+{
+  "id": "sabadell-C13FA445923",
+  "@type": ["saref4watr:WaterSmartMeter", "geo:Feature"],
+  "title": "Smart Meter C13FA445923",
+  "description": "A smart-meter model for capturing the consumption information of one building.",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+    "consumption": {
+      "description" : "Water Consumption",
+      "type": "number",
+      "unit": "l",
+      "readOnly": true
+    }
+  },
+  "links": [
+    {
+      "href":"src/csv/Escomesa telelectura.csv"
+    }]
+}

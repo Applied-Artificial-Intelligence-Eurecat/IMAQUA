@@ -1,0 +1,36 @@
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+    max-width: 20rem;
+}
+.fa-comments:hover {
+    font-size:6em
+}
+
+.fa-desktop:hover {
+    font-size:6em
+}
+
+.fa-plug:hover {
+    font-size:6em
+}
+
+.showcase .showcase-text {
+    padding: 7rem;
+}
+
+.showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+}
+
+.showcase-1 {
+    background-image: url('../img/bg-showcase-1.png');
+}
+
+.showcase-2 {
+    background-image: url('../img/bg-showcase-2.jpg');
+}

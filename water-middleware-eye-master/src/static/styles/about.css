@@ -1,0 +1,10 @@
+.jumbotron{
+    margin-top: 0 !important;
+}
+.jumbotron-color-transparent{
+    background-color:transparent !important;
+}
+
+.jumbotron-color-light{
+    background-color:#f8f9fa !important;
+}

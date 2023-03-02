@@ -1,0 +1,70 @@
+{
+  "id": "aqua-Bio-8",
+  "@type": ["saref4watr:Device", "geo:Feature"],
+  "title": "Canal_04@8",
+  "description": "Deposito 3 crítico agua potable",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.537880, 2.374441]
+  },
+  "properties": {
+    "conductivity": {
+      "description" : "Conductivity",
+      "type": "number",
+      "unit": "uS/cm",
+      "readOnly": true
+    },
+    "absorbance": {
+      "description" : "Absorbance Component",
+      "type": "number",
+      "unit": "Abs/m",
+      "readOnly": true
+    },
+    "ph": {
+      "description" : "PH",
+      "type": "number",
+      "unit": "Ph Units",
+      "readOnly": true
+    },
+    "turbidity": {
+      "description" : "Turbidity",
+      "type": "number",
+      "unit": "FAU",
+      "readOnly": true
+    },
+    "redox": {
+      "description" : "Redox",
+      "type": "number",
+      "unit": "mV",
+      "readOnly": true
+    },
+    "dissolved_oxigen": {
+      "description" : "Dissolved Oxigen",
+      "type": "number",
+      "unit": "ppm",
+      "readOnly": true
+    },
+    "organic_matter": {
+      "description" : "Organic Matter (SAC)",
+      "type": "number",
+      "unit": "Abs/m",
+      "readOnly": true
+    },
+    "temperature": {
+      "description" : "Temperature",
+      "type": "number",
+      "unit": "ºC",
+      "readOnly": true
+    },
+    "absorbance_254": {
+      "description" : "Absorbance 254",
+      "type": "number",
+      "unit": "Abs/m",
+      "readOnly": true
+    }
+  },
+  "links": [
+    {
+      "href":"http://ecodata.adasasistemas.com/api/publish/series/analog?locationSourceId=8"
+    }]
+}
